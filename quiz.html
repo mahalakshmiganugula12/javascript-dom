@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz Application</title>
+</head>
+<body>
+  1.what is HTML?
+  <br>
+  <input type="radio" name="question1" id="answer1">Hyper Text Markup language <br>
+  <input type="radio" name="question1">Hyper Text Makeup language <br>
+  <input type="radio" name="question1">High talent managable language <br>
+  <input type="radio" name="question1">Hyper term markup language <br>
+  <br>
+  2.which does not belongs to table?
+  <br>
+  <input type="radio" name="question2">td <br>
+  <input type="radio" name="question2" id="answer2">ul <br>
+  <input type="radio" name="question2">th <br>
+  <input type="radio" name="question2">tr <br>
+  <br>
+  3.which is inlevel element?
+  <br>
+  <input type="radio" name="question3">div <br>
+  <input type="radio" name="question3" id="answer3">button <br>
+  <input type="radio" name="question3">h1 <br>
+  <input type="radio" name="question3">p <br>
+  <br>
+  4.which among following is empty element?
+  <br>
+  <input type="radio" name="question4">div <br>
+  <input type="radio" name="question4" id="answer4">hr <br>
+  <input type="radio" name="question4">h1 <br>
+  <input type="radio" name="question4">span <br>
+  <br>
+  5.which among the following is image attribute?
+  <br>
+  <input type="radio" name="question5">href <br>
+  <input type="radio" name="question5" id="answer5">src <br>
+  <input type="radio" name="question5">width <br>
+  <input type="radio" name="question5">alt <br>
+  <br>
+  <input type="submit" name="submit" value="submit" onclick="task( )">
+  <input type="submit" name="reload" value="reload">
+  <script type="text/javascript">
+    function task(){
+      var score=0;
+      if(document.getElementById('answer1').checked)
+      {
+        score++;
+      }
+      if(document.getElementById('answer2').checked)
+      {
+        score++;
+      }
+      if(document.getElementById('answer3').checked)
+      {
+        score++;
+      }
+      if(document.getElementById('answer4').checked)
+      {
+        score++;
+      }
+      if(document.getElementById('answer5').checked)
+      {
+        score++;
+      }
+      document.write("your score is:"+score);
+    }
+  </script>
+
+</body>
+</html>
